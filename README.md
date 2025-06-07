@@ -10,10 +10,10 @@
 
 ### 27. Interpolasi Stirling
 
-# **Soal**  
+## **Soal**  
 >Carilah nilai f(x) ketika x = 14 dengan menggunakan Stirling dengan Xo = 15 dan Y sebenarnya = 436366 [Cari juga nilai Et]
 
-# **Kode dan Penjelasan**  
+## Kode dan Penjelasan  
 >`def stirling_interpolasi(f0, delta_f0, delta_f_1, delta2_f0, delta3_f0, delta3_f_1, delta4_f_1, x0, h, x, yt=None):`  
 
 Merupakan fungsi utama yang akan digunakan dalam penyelesaian soal stirling ini. Fungsi ini menerima parameter nilai dari tabel selisih hingga dari tabel data (f0, delta_f0, delta_f_1, delta2_f0, delta3_f0, delta3_f_1, delta4_f_1), titik tengah `x0`, interval antar titik `h`, titik yang akan dihitung `x`, dan nilai sebenarnya `yt`.
